@@ -1,0 +1,39 @@
+.wrapper {
+    margin: 3rem;
+    background: #d25353;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.header-banner {
+    color: #fffdfb;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Playwrite NZ Basic", cursive;
+}
+
+.container {
+    margin: 2rem 0;
+}
+
+.text-wrapper {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 15px;
+    background: #fffdfb;
+    border: 2.5px solid #ea7b7b;
+}
+
+.large-heading {
+    color: #fffdfb;
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: "Playwrite NZ Basic", cursive;
+}
+
+.medium-heading {
+    color: #d25353;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: "Playwrite NZ Basic", cursive;
+}
