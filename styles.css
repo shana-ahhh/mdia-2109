@@ -1,0 +1,65 @@
+/* CLASS 5: TALK ABOUT SPECIFICITY BTW ID, CLASS, INLINE, STYLE IN HTML AND EXTERNAL CSS */
+.heading-1 {
+    color: turquoise;
+}
+
+/* 
+h1 {
+    color: green;
+} */
+
+/* #heading-one {
+    color: blue;
+} */
+
+
+/* INHERITANCE FROM THE PARENT ELEMENTS: like only text and typography, not padding, border */
+.heading-1 {
+    color: purple;
+}
+
+.header-container {
+    color: goldenrod;
+    border: 5px solid darkred;
+    padding: 5px 6px 7px 8px;
+}
+
+.post {
+    color: #f00;
+    border: 3px dashed sienna;
+}
+
+/* hover the element to see the specificity
+Order: ID CLASS  HTML-TAG*/
+/* body #some-id .post p {
+    color: blue;
+} */
+
+.post p {
+    color: blue;
+}
+
+/* The > is equal to the space */
+/* .post > p {
+    color: blue;
+} */        
+
+.post__title {
+    text-decoration: underline;
+}
+
+/* .post p has higher specificity */
+.post__text {
+    color: purple;
+}
+
+.post .post__disclaimer {
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Style the CSS class with 1 class and not depending on the parent elements. As it will break if rename and move the element elsewhere */
+.post .post__disclaimer.final__disclaimer {
+    color: aquamarine;
+}
